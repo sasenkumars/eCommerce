@@ -5,7 +5,7 @@
     "database": "ecomdb89",
     "host": "db4free.net",
     "dialect": "mysql" ,
-    "port" : 3306
+    "port": 3306
   },
   "test": {
     "username": "root",
