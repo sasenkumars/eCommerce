@@ -1,10 +1,11 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "eCommerce",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "sasenkumar",
+    "password": "Newproject",
+    "database": "ecomdb89",
+    "host": "db4free.net",
+    "dialect": "mysql" ,
+    "port" : 3306
   },
   "test": {
     "username": "root",
@@ -14,10 +15,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "sasenkumar",
+    "password": "Newproject",
+    "database": "ecomdb89",
+    "host": "db4free.net",
     "dialect": "mysql"
   }
 }
