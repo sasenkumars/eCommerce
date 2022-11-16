@@ -10,7 +10,7 @@ app.use(categoryRoutes)
 app.use(productRoutes)
 app.use(cartRoutes)
 
-app.listen(serverPort, async ()=> {
+app.listen(process.env.PORT || serverPort , async ()=> {
 	console.log('server is running on this port', serverPort)
 	await init()
 })
